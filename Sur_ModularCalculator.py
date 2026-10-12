@@ -41,6 +41,5 @@ else:
     print("Invalid operation choice.")
 
 
-
 if result is not None:
     print("Result:", result)
