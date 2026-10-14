@@ -5,27 +5,22 @@
 def add_numbers(num1, num2):
     return num1 + num2
 
-
 def subtract_numbers(num1, num2):
     return num1 - num2
 
-
 def multiply_numbers(num1, num2):
     return num1 * num2
-
 
 def divide_numbers(num1, num2):
     if num2 == 0:
         return None
     return num1 / num2
 
-
 # Ask the user to enter two numbers
 print("=== MODULAR CALCULATOR ===")
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
-
 
 print("\nChoose an operation:")
 print("1 - Addition")
@@ -34,7 +29,6 @@ print("3 - Multiplication")
 print("4 - Division")
 
 choice = input("Enter your choice: ")
-
 
 # Call the appropriate function and store the returned value
 if choice == "1":
