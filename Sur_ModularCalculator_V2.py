@@ -1,6 +1,7 @@
 # Modular Calculator Mini-Program
 # Version 2: Improved comments, output formatting, and division by zero handling
 
+
 def add_numbers(num1, num2):
     return num1 + num2
 
