@@ -1,7 +1,7 @@
 # Modular Calculator Mini-Program
 # Version 2: Improved comments, output formatting, and division by zero handling
 
-
+# Function operations
 def add_numbers(num1, num2):
     return num1 + num2
 
@@ -20,7 +20,7 @@ def divide_numbers(num1, num2):
     return num1 / num2
 
 
-
+# Ask the user to enter two numbers
 print("=== MODULAR CALCULATOR ===")
 
 num1 = float(input("Enter first number: "))
@@ -36,7 +36,7 @@ print("4 - Division")
 choice = input("Enter your choice: ")
 
 
-
+# Call the appropriate function and store the returned value
 if choice == "1":
     result = add_numbers(num1, num2)
     print(f"\nResult: {num1} + {num2} = {result}")
